@@ -36,8 +36,8 @@ export function Chat({ socket, room, username }) {
         <p>Live Chat</p>
       </div>
 
-      <div className="chat-body">
-        <ScrollToBottom className="message-wrapper">
+      <ScrollToBottom className="message-wrapper">
+        <div className="chat-body">
           {messageList.map((messageContent) => {
             return (
               <div
@@ -51,8 +51,8 @@ export function Chat({ socket, room, username }) {
               </div>
             );
           })}
-        </ScrollToBottom>
-      </div>
+        </div>
+      </ScrollToBottom>
 
       <div className="chat-footer">
         <input

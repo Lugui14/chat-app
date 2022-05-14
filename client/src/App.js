@@ -1,13 +1,13 @@
-import { useState } from "react";
+import { useMemo, useState } from "react";
 
 import "./styles.css";
 import { Chat } from "./components/Chat";
 
 import io from "socket.io-client";
 
-const socket = io.connect("http://localhost:3001");
-
 export function App() {
+  const socket = useMemo(() => io.connect("http://localhost:3001"), []);
+
   const [username, setUsername] = useState("");
   const [roomId, setRoomId] = useState("");
 
