@@ -1,7 +1,7 @@
 # Chat App
 
-![License](https://img.shields.io/github/license/Lugui14/chat-app)
-![Development](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+- ![License](https://img.shields.io/github/license/Lugui14/chat-app)
+- ![Development](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
 ## Descrição do Projeto
 
@@ -33,7 +33,10 @@ yarn start
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
--`React.JS` -`Node.JS` -`Electron` -`Socket.io`
+-`React.JS` </br>
+-`Node.JS` </br>
+-`Electron` </br>
+-`Socket.io` </br>
 
 ## Licença
 
