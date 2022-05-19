@@ -1,7 +1,7 @@
 # Chat App
 
 - ![License](https://img.shields.io/github/license/Lugui14/chat-app)
-- ![Development](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+- ![Development](http://img.shields.io/static/v1?label=STATUS&message=FINALIZED&color=GREEN&style=for-the-badge)
 
 ## Descrição do Projeto
 
