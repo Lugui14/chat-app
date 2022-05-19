@@ -7,7 +7,7 @@ function createWindow() {
     height: 600,
   });
 
-  win.loadURL("http://localhost:3000");
+  win.loadURL(process.env.REACT_APP_SERVER_URL || "http://localhost:3000");
 }
 
 app.whenReady().then(() => {
