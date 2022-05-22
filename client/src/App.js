@@ -1,3 +1,4 @@
+import "dotenv/config";
 import { useMemo, useState } from "react";
 
 import "./styles.css";
